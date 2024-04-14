@@ -2,6 +2,6 @@
     "version": 2,
     "routes": [
       {"src": "/","dest": "/index.html"},
-      {"src": "/telegraph(.*)","dest": "https://telegra.ph/"}
+      {"src": "/telegraph/(.*)","dest": "https://telegra.ph"}
     ]
 }
