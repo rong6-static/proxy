@@ -2,6 +2,7 @@
     "version": 2,
     "routes": [
       {"src": "/","dest": "/index.html"},
-      {"src": "/pixiv/(.*)","dest": "https://pixiv.cat/"}
+      {"src": "/pixiv/(.*)","dest": "https://pixiv.cat/"},
+      {"src": "/v2ex(.*)","dest": "https://v2ex.com"}
     ]
 }
